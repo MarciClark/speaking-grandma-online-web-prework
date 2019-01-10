@@ -4,7 +4,9 @@ describe "#speak_to_grandma" do
     expect(speak_to_grandma("Hi, grandma!")).to eq "HUH?!  SPEAK UP, SONNY!"
     elsif
     it "responds with NO, NOT SINCE 1938! When she can hear you" do
-      
+      expect(speak_to_grandma("How are you?")).to eq "NO, NOT SINCE 1938!"
+      elsif
+      it "responds with I LOVE YOU TOO PUMPKIN!"
 
 
 
